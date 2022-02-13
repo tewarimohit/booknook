@@ -2,12 +2,10 @@
     margin-left: 5rem;
 }
 
-
 .ecom-head-container {
     z-index: 1;
     position: sticky;
     top: 0rem;
-    max-width: 1500px;
     margin: 0px;
 
 }
@@ -35,8 +33,6 @@
     top: -3.5rem;
     max-width: auto;
     height: auto;
-
-
 }
 
 .explore-btn {
@@ -56,4 +52,17 @@
 
 .explore {
     margin: 4px 10px;
+}
+
+.heart {
+    color: var(--primary-colorone);
+}
+
+.nav-items a i {
+    font-size: 32px;
+}
+
+.user-img {
+    display: flex;
+    justify-content: center;
 }
