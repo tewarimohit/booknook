@@ -16,8 +16,8 @@
 			rel="stylesheet"
 			href="https://technomentum.netlify.app/css_docs/navigation.css"
 		/>
-		<link rel="stylesheet" href="./css_docs/home.css" />
-		<title>Home</title>
+		<link rel="stylesheet" href="./css_docs/login.css" />
+		<title>Login</title>
 	</head>
 
 	<body>
@@ -56,7 +56,7 @@
 							Login</a
 						>
 
-						<a href="#" title="Wishlist" class="head-link heart">
+						<a href="./wishlist.html" title="Wishlist" class="head-link heart">
 							<i class="material-icons">favorite_border</i>
 						</a>
 						<a href="./cart.html" class="cart" title="Cart" class="head-link"
@@ -76,26 +76,53 @@
 		</div>
 
 		<div class="page-body">
-			<div class="home-img">
-				<img src="/assets/storytelling.jpg" alt="home-image" />
-			</div>
-			<div class="col-2">
-				<h1 class="hd-l-font bookish-font margin-1">
-					The world’s greatest stories <br />
-					at one Place...
+			<div class="login-area">
+				<h1 class="hd-m2-font heading-color std-font-two margin-bottom-s">
+					Login
 				</h1>
-				<h1 class="hd-m-font std-font-two margin-1 gap-1">
-					There is more treasure in books <br />
-					than in all the pirate’s loot on <br />Treasure Island.
-				</h1>
-				<h1 class="hd-m-font std-font-two margin2-left">- Walt Disney</h1>
-			</div>
-			<div class="explore-btn">
-				<a href="./products.html" id=""
-					><button class="floating-btn floating-btn1 hd-s-font">
-						<span class="explore std-font-two">Explore Now</span>
-						<i class="fa fa-arrow-circle-right"></i></button
-				></a>
+				<div class="first-input">
+					<label class="para-m-font std-font-two margin-bottom-s" for="username"
+						>Email address</label
+					>
+					<input
+						class="input-field normal-input margin-bottom-m"
+						type="text"
+						name="username"
+						placeholder="booknook@gmail.com"
+					/>
+				</div>
+				<div class="second-input">
+					<label class="para-m-font std-font-two margin-bottom-s" for="password"
+						>Password</label
+					>
+					<input
+						class="input-field normal-input margin-bottom-m"
+						type="Password"
+						name="password"
+						placeholder="●●●●●●●●●"
+					/>
+				</div>
+				<div class="third-input">
+					<input class="checkbox" type="checkbox" />
+					<label class="para-s-font margin-left-s" for="username"
+						>Remember me</label
+					>
+					<a href="#" class="margin-auto forgot-pass">Forgot your Password ?</a>
+				</div>
+
+				<button class="primary-btn normal-btn btn-width">Login</button>
+
+				<div class="signin-area">
+					<a class="para-m-font heading-color std-font-two" href="./signup.html"
+						>CREATE NEW ACCOUNT
+					</a>
+
+					<span class="hd-m2-font bookish-font margin-left-s heading-color"
+						>></span
+					>
+				</div>
+
+				<span class="login-close std-font-two">X</span>
 			</div>
 		</div>
 	</body>
