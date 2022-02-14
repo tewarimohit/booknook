@@ -36,15 +36,17 @@
     grid-area: info;
     display: flex;
     align-items: center;
+   
 
 }
 
 .page-content {
     grid-area: content;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 5px;
-    align-items: flex-start;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+   
+    
 }
 
 .footer {
@@ -81,7 +83,7 @@
 }
 
 .card {
-    min-width: 300px;
+    width: 300px;
 
 }
 
