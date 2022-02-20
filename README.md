@@ -34,3 +34,5 @@ The link will direct you to homepage of booknook.
 2. You can go to cart page by clicking on cart icon on top-right of the page and increase or decrease the number of articles.
 3. To remove book from cart click on button(Remove from cart)
 
+### Logout
+ You can Logout from the page by clicking on Signout at top-right corner of the page. 
